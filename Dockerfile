@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Define environment variable
-ENV NAME World
+ENV NAME=World
 
 # Run finance_tools.py when the container launches
 CMD ["python", "finance_tools.py"]
